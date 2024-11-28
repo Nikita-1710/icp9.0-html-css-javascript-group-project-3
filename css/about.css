@@ -1,5 +1,5 @@
 .about-body{
-    background-color:white;
+    background-color:#fff;
     text-align: center;
     height:auto;
     border:5px solid #020826;
@@ -8,15 +8,17 @@
 
 }
 .img-front{
-    width:1200px;
-    height:600px;
+    width:1300px;
+    height:700px;
     border-radius:0 15px 0 15px;
-    border:solid 3px #8c7851;
-   
+    border:solid 3px #000;
+    display: block;
+    margin: 0 auto;
+   object-fit: cover;
 }
 .main-heading{
     font-size:60px;
-    color:#020826;
+    color:black;
     text-align:center;
     margin-top:30px;
     font-family: "Montserrat",sans-serif;
@@ -26,10 +28,10 @@
 .secondary-heading{
     font-size: 25px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    color:red;
+    color:#e21313;
 }
 .heading{
-    color:#020826;
+    color:#000;
     font-size:21px;
     text-align:center;
     align-items: center;
@@ -44,24 +46,25 @@
 
 
 .para-description{
-    color:#716040;
+    color:#e21313;
     font-family: cursive;
     font-size: 18px;
     height:250px;
     width:400px;
+    text-align: center;
 }
 .trade-para{
     height:350px;
-    color:#716040;
+    color:#e21313;
     font-family: cursive;
     font-size: 18px;
-    
+    text-align: center;
     width:400px;
 
 }
    
 .tertiary-heading{
-    color:#020826;
+    color:#000;
     font-size: 30px;
     text-align: center;
 
@@ -71,13 +74,13 @@
     height:300px;
     width:300px;
     border-radius: 5px;
-    border:solid 2px #8c7851;
-    box-shadow: 5px 5px 5px 5px #8c7851;
+    border:solid 2px #000;
+    box-shadow: 5px 5px 2px 2px #000;
     margin: 10px;
-    background-color: #fffffe;
-    display: inline-block;
-    
-    
+    background-color: #fff;
+    display:inline-block;
+    margin: 10px 35px;
+    text-align: center;
 
 }
 .img-services{
@@ -85,7 +88,9 @@
     width:200px;
     border-radius: 7px;
     margin-top: 20px;
-    
+    display: block;
+    margin: 10px auto;
+   object-fit: cover;
    
 }
 .service-description{
@@ -110,7 +115,7 @@
     align-items: center;
     text-align: start;
     font-family: cursive;
-    color:#716040;
+    color:#e21313;
  }
  
 
