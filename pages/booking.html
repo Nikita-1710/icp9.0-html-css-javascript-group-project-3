@@ -31,9 +31,20 @@
             <input type="date" id="date" name="date" required>
             <label for="time">Time:</label>
             <input type="time" id="time" name="time" required>
-            <button type="submit">Book Now</button>
+            <button type="submit" onclick="openModel()">Book Now</button>
         </form>
-        <div id="confirmation"></div>
+        
+    </div>
+
+    <div class="overlay" id="overlay">
+        <div class="model">
+        
+            <div id="confirmation"></div>
+            <script src="../js/booking.js"></script>
+            <button type="button" class="btn" onclick="closeModel()">Close</button>
+
+        </div>
+
     </div>
 
     
