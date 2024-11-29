@@ -370,3 +370,39 @@ a:hover {
   font-size: 16px;
   padding: 7px;
 }
+
+.container {
+  width: fit-content;
+  margin: 20px auto;
+  position: relative;
+}
+
+.slide {
+  height: 700px;
+  width: 1300px;
+  object-fit: cover;
+}
+
+.icon-action {
+  height: 70px;
+  position: absolute;
+  top: 40%;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.icon-back {
+  left: 0;
+}
+
+.icon-back:hover {
+  transform: scale(0.8) translateX(-10px);
+}
+
+.icon-next {
+  right: 0;
+}
+
+.icon-next:hover {
+  transform: scale(0.8)translateX(10px);
+}
