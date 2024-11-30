@@ -1,0 +1,42 @@
+.slider-container{
+    height: 550px;
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 60px;
+}
+
+.slide{
+    position: relative; 
+}
+
+.slide img{
+    height: 550px;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 15px;
+    border: 1px solid gray;
+}
+
+.icon {
+    position: absolute;
+    cursor: pointer;
+    font-size: 100px;
+}
+
+.pre-icon {
+    left: 0;
+    top: 40%;
+}
+
+.pre-icon:hover {
+    transform: scale(0.8) translateX(-5px);
+}
+
+.next-icon {
+    right: 0;
+    top: 40%;
+}
+
+.next-icon:hover {
+    transform: scale(0.8) translateX(5px);
+}
