@@ -1,0 +1,19 @@
+#sidebar{
+    background-color: rgb(194, 164, 164);
+    height: 100vh;
+    width: 250px;
+    visibility: hidden;
+    position: fixed;
+    }
+    body{
+        margin:0 ;
+        padding: 0;
+    }
+    #menu{
+    margin-top: 10px;
+    
+    }
+    #cross{
+        margin-left: 20vh;
+        margin-top: 10px;
+    }
