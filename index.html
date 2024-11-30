@@ -4,7 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Homepage</title>
-   <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/index.css">
 </head>
 <body>
     <div class="navbar primary-color">
@@ -18,6 +19,14 @@
         </ul>
     </div>
 
-    
+    <div class="slider-container">
+        <div class="slide">
+            <img src="./img/home-slider/autumn.jpg" id="slide">
+            <i class="fa-solid fa-angle-left icon pre-icon" onclick="prevSlide()"></i>
+            <i class="fa-solid fa-angle-right icon next-icon" onclick="nextSlide()"></i>
+        </div>
+    </div>
+    <script src="https://kit.fontawesome.com/d58d3c91c6.js" crossorigin="anonymous"></script>
+    <script src="./js/index.js"></script>
 </body>
 </html>
