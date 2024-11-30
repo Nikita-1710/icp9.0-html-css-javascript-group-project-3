@@ -88,3 +88,16 @@ body {
   margin: 0;
   text-decoration: underline;
 }
+
+.iconContainer {
+  margin-top: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  font-size: 22px;
+}
+
+.iconContainer i {
+  cursor: pointer;
+}
