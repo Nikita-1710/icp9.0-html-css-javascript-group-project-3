@@ -1,19 +1,36 @@
-#sidebar{
-    background-color: rgb(194, 164, 164);
+#sidebar {
+    background-color: rgb(255, 255, 255);
     height: 100vh;
     width: 250px;
-    visibility: hidden;
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
     position: fixed;
-    }
-    body{
-        margin:0 ;
-        padding: 0;
-    }
-    #menu{
+    transition: visibility 0.3s ease, transform 0.3s ease;
+    visibility: hidden;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: rgb(240, 240, 240);
+}
+
+#menu {
     margin-top: 10px;
-    
-    }
-    #cross{
-        margin-left: 20vh;
-        margin-top: 10px;
-    }
+    padding: 10px;
+    display: block;
+    color: #333;
+    text-decoration: none;
+    font-size: 18px;
+    transition: background-color 0.3s ease;
+}
+
+#menu:hover {
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+#cross {
+    margin-left: 30vh;
+    margin-top: 10px;
+    cursor: pointer;
+}
