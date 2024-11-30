@@ -8,13 +8,43 @@
 </head>
 <body>
     <i class="fa-solid fa-bars" onclick="opensidebar()"></i>
+    
     <div id="sidebar">
         <i class="fa-solid fa-xmark" id="cross" onclick="closesidebar()"></i>
-        <a href="" id="menu"><i class="fa-solid fa-house-chimney"></i>
+        <a href="/index.html" id="menu"><i class="fa-solid fa-house-chimney"></i>
              home
             </a> 
     </div>
+
     <script src="https://kit.fontawesome.com/8efeeacf59.js" crossorigin="anonymous"></script>
     <script src="/js/furniture.js"></script>
+    <!--product cards -->
+    
+    <div id="firstrow">
+    
+        <div class="slideshow-container">
+        <div class="slideshow">
+            <img id="slideshow-image" src="" alt="Slideshow Image">
+        </div>
+        <button id="prev-button" onclick="prevImage()">❮</button>
+        <button id="next-button" onclick="nextImage()">❯</button>
+    </div>
+
+    <div class="slideshow-container">
+        <div class="slideshow">
+            <img id="slideshow-image" src="" alt="Slideshow Image">
+        </div>
+        <button id="prev-button" onclick="prevImage()">❮</button>
+        <button id="next-button" onclick="nextImage()">❯</button>
+    </div>
+
+    <div class="slideshow-container">
+        <div class="slideshow">
+            <img id="slideshow-image" src="" alt="Slideshow Image">
+        </div>
+        <button id="prev-button" onclick="prevImage()">❮</button>
+        <button id="next-button" onclick="nextImage()">❯</button>
+    </div>
+</div>
 </body>
 </html>
