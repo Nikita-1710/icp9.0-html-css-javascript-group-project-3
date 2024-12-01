@@ -112,4 +112,14 @@ body {
     font-size: 14px;
     border-radius: 4px;
   }
+
+  .inputField {
+    margin-top: 12px;
+  }
+
+  .iconContainer {
+    margin-top: 10px;
+    gap: 12px;
+    font-size: 20px;
+  }
 }
