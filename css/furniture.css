@@ -1,0 +1,100 @@
+/* Sidebar Styles */
+#sidebar {
+    background-color: rgb(255, 255, 255);
+    height: 100vh;
+    width: 250px;
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+    position: fixed;
+    transition: transform 0.3s ease;
+    visibility: hidden;
+}
+#hamberg{
+    margin-left: 20px;
+    position: sticky;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: rgb(240, 240, 240);
+}
+
+#menu {
+    margin-top: 10px;
+    padding: 10px;
+    display: block;
+    color: #333;
+    text-decoration: none;
+    font-size: 18px;
+    transition: background-color 0.3s ease;
+}
+
+#menu:hover {
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+#cross {
+    margin-left: 30vh;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+/* Slideshow Styles */
+.slideshow-container {
+    position: relative;
+    width: 80%;
+    max-width: 600px;
+    border: 2px solid #ddd;
+    background-color: #fff;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 20px auto;
+}
+
+.slideshow {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.slideshow img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 50%;
+    outline: none;
+}
+
+#prev-button {
+    left: 10px;
+}
+
+#next-button {
+    right: 10px;
+}
+
+button:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Flexbox for Product Cards */
+#firstrow {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    margin: 250px;
+}
