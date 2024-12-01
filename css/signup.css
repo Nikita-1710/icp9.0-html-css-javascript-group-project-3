@@ -1,0 +1,125 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(243, 243, 243);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.signup-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.signup-box {
+  width: 400px;
+  border-radius: 10px;
+  background-color: white;
+  padding: 30px;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.178);
+}
+
+.signup-box h3 {
+  text-align: center;
+  font-size: 24px;
+  color: rgb(65, 64, 64);
+}
+
+.input-fields {
+  margin-top: 20px;
+}
+.inputField {
+  margin-top: 15px;
+}
+
+.inputField input {
+  padding: 16px 10px;
+  width: 100%;
+  font-size: 15px;
+  border-radius: 5px;
+  border: none;
+  background-color: rgb(236, 236, 236);
+}
+
+.inputField input:focus {
+  outline: 1px solid #ff5b5b8c;
+}
+
+.inputField button {
+  padding: 14px;
+  width: 100%;
+  border-radius: 5px;
+  border: none;
+  background-color: #e21313;
+  cursor: pointer;
+  color: white;
+}
+
+.inputField button:hover {
+  background-color: #d31111;
+}
+
+.inputField span {
+  margin: 0px 15px;
+}
+.buttonContainer {
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.loginText {
+  text-align: center;
+  color: #282880;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.loginText:hover {
+  color: #131396;
+}
+
+.loginText span {
+  margin: 0;
+  text-decoration: underline;
+}
+
+.iconContainer {
+  margin-top: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  font-size: 22px;
+}
+
+.iconContainer i {
+  cursor: pointer;
+}
+
+@media (max-width: 540px) {
+  .signup-box {
+    width: 340px;
+    padding: 20px;
+  }
+
+  .inputField input {
+    font-size: 14px;
+    border-radius: 4px;
+  }
+
+  .inputField {
+    margin-top: 12px;
+  }
+
+  .iconContainer {
+    margin-top: 10px;
+    gap: 12px;
+    font-size: 20px;
+  }
+}
