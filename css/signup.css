@@ -101,3 +101,15 @@ body {
 .iconContainer i {
   cursor: pointer;
 }
+
+@media (max-width: 540px) {
+  .signup-box {
+    width: 340px;
+    padding: 20px;
+  }
+
+  .inputField input {
+    font-size: 14px;
+    border-radius: 4px;
+  }
+}
