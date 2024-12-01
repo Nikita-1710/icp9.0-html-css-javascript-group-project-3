@@ -205,7 +205,7 @@ footer {
 
 .newsletter-signup button {
     padding: 10px;
-    background-color: #00332b;
+    background-color: /*red*/#00332b;
     color: white;
     border: none;
     cursor: pointer;
