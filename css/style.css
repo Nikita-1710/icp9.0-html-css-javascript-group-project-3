@@ -7,6 +7,10 @@ body{
     color: #e21313;
 }
 
+.text-center{
+    text-align: center;
+}
+
 .navbar{
     height: 10px;
     width: 100%;
