@@ -59,4 +59,60 @@ footer {
 .quick-links ul li a:hover {
     text-decoration: underline;
 }
+.social-media a {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.social-media img {
+    width: 24px;
+    height: 24px;
+}
+
+.newsletter-signup form {
+    display: flex;
+    flex-direction: column;
+}
+
+.newsletter-signup input[type="email"] {
+    background-color: aliceblue;
+    padding: 10px;
+    border: 1px solid gray;
+    border-radius: 4px;
+    margin-bottom: 10px;
+}
+
+.newsletter-signup button {
+    padding: 10px;
+    background-color: /*red*/#00332b;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.newsletter-signup button:hover {
+    background-color: #004d40;
+}
+
+.footer-bottom {
+    border-top: 1px solid #00332b;
+    padding: 10px 0;
+}
+
+@media (min-width: 769px) {
+    .hamburger-menu {
+        display: none; 
+       
+    }
+
+    .nav-links {
+        display: flex; 
+    }
+
+    #sidebar {
+        display: none; 
+    }
+}
+
 
