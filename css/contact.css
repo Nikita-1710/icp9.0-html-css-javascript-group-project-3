@@ -4,3 +4,28 @@
     width: 80%;
     height: 400px;
 }
+.heading{
+    font-size: 30px;
+    text-align: center;
+}
+footer {
+    /* background: #004d40; */
+    /* background-color: #0f1111; */
+    background-color: white;
+    color: black;
+    /* color: white; */
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.footer-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+
+.footer-content > div {
+    flex: 1;
+    margin: 10px;
+}
