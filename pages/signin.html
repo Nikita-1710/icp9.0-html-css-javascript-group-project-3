@@ -4,8 +4,26 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sign-in</title>
+    <link rel="stylesheet" href="../css/signin.css">
 </head>
 <body>
-    
+
+    <button class="btn-main" onclick="openModal()">
+        Sign-in
+    </button>
+
+    <div class="overlay" id="overlay">
+    <div class="input-container">
+     <img src="../img/close (1).png" alt="Logo" class="close" onclick="closeModal()">
+     <form class="form">
+    <h1 class="heading">Sign-in</h1>
+    <input type="text" placeholder="Username" class="input">
+    <input type="password" placeholder="Password" class="input">
+    <button class="btn">Sign-in</button>
+    <button class="btn">Forgot Password</button>
+</form>
+   </div>
+</div>
+<script src="../js/signin.js"></script>
 </body>
 </html>

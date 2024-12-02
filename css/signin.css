@@ -1,0 +1,76 @@
+.input-container{
+   height: 400px;
+    width: 300px;
+  position: relative;
+  display: block;
+  margin: 20px auto;
+  margin-top: 150px;
+  border: 1px solid #000;
+
+}
+.input{
+    width: 90%;
+    padding: 10px;
+    border: none;
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 10px;
+    
+    align-items: center;
+}
+.btn{
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 20px;
+    margin-top: 5px;
+    
+}
+.close{
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    height: 25px;
+    color: white;
+    cursor: pointer;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+    width: 100%;
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+
+}
+
+.btn-main{
+  display: block;
+  margin: 20px auto;
+  margin-top: 560px;
+  padding: 10px;
+  background-color: #333;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  border-radius: 10px;
+  width: 120px;
+}
+
+   
+
+.overlay{
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0,0,0,0.4);
+    display:none;
+}
+
