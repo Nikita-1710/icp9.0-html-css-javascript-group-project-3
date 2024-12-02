@@ -29,3 +29,34 @@ footer {
     flex: 1;
     margin: 10px;
 }
+.contact-info, .quick-links, .social-media, .newsletter-signup {
+    max-width: 300px;
+}
+
+.contact-info h3, .quick-links h3, .social-media h3, .newsletter-signup h3 {
+    margin-bottom: 15px;
+    font-size: 1.5em;
+}
+
+.contact-info p {
+    margin: 5px 0;
+}
+
+.quick-links ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.quick-links ul li {
+    margin: 10px 0;
+}
+.quick-links ul li a {
+    color: black;
+    /* color: white; */
+    text-decoration: none;
+}
+
+.quick-links ul li a:hover {
+    text-decoration: underline;
+}
+
