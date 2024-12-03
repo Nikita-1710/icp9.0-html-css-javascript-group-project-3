@@ -1,8 +1,7 @@
 .slider-container{
-    height: 550px;
     width: 90%;
     margin: 0 auto;
-    margin-top: 60px;
+    margin-top: 40px;
 }
 
 .slide{
@@ -11,7 +10,7 @@
 }
 
 .slide img{
-    height: 550px;
+    height: 700px;
     width: 100%;
     object-fit: cover;
     border-radius: 15px;
