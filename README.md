@@ -1,9 +1,9 @@
 # Electro-Mart 
 ## Welcome To **Electro-Mart**
-#   `Contributers:`
+### Contributors:
 <a href="https://github.com/Nikita-1710/icp9.0-html-css-javascript-group-project-3/graphs/contributors">
 
-## Home page:
+## Home Page:
 ![Home page](./img/homepage/homepage.png)
 
 ## Advantages Of `Online Shopping`:
