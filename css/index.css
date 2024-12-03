@@ -50,15 +50,28 @@
 }
 
 .cards{
-    height: 300px;
-    width: 250px;
+    height: 260px;
+    width: 260px;
     padding: 20px;
     border: 1px solid black;
     border-radius: 15px;
 }
 
 .feature-icon{
-    
+    height: 90px;
+    display: block;
+    margin: 5px auto
+}
+
+.feature-heading{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.feature-text{
+    display: block;
+    margin: 10px 15px;
+
 }
 
 @media (max-width: 768px) {
