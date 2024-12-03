@@ -6,10 +6,15 @@
 ## Home Page:
 ![Home page](./img/homepage/homepage.png)
 
-## Advantages Of `Online Shopping`:
+## Features Of `Online Shopping`:
 1. Secure Payment
 2. Return Policy
 3. Fast and Free Delivery
 4. 24/7 Customer Service
 
-### We are using `HTML,CSS and JS` in this project.
+## Technologies Used :
+`HTML,CSS and JS` 
+
+[Visit Electro-Mart](https://electro-mart-project.netlify.app)
+
+`Thanks for visiting🙏`
