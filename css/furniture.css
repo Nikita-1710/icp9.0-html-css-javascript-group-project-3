@@ -49,15 +49,9 @@ max-height: fit-content;
     background-color: #fff;
     border-radius: 10px;
     overflow: hidden;
+    text-align: center;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     margin: 20px auto;
-}
-
-.slideshow {
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
 
 .slideshow img {
@@ -77,8 +71,7 @@ max-height: fit-content;
 }
 /* Discription Menu*/
 #discription {
-    margin-left: 25vb;
-    margin-bottom: 100px;
+    margin-bottom: 10px;
     padding: 10px 20px;
     font-size: 16px;
     cursor: pointer;
