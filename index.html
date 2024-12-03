@@ -1,22 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Homepage</title>
-    <link rel="stylesheet" href="./css/style.css"> 
+    <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="./css/index.css">
     <link rel="stylesheet" href="./css/nav.css">
 </head>
-<body>
-    <!-- <div class="slider-container">
-        <div class="slide">
-            <img src="./img/home-slider/slide1.jpg" id="slide">
-            <i class="fa-solid fa-angle-left icon pre-icon" onclick="prevSlide()"></i>
-            <i class="fa-solid fa-angle-right icon next-icon" onclick="nextSlide()"></i>
-        </div>
-    </div>  -->
 
+<body>
     <header>
         <nav>
             <div class="logo">
@@ -35,10 +29,10 @@
 
             <ul class="nav-links" id="desktop-navbar">
                 <li><b>Home</b></li>
-                <li><a href="#">About</a></li>
+                <li><a href="./pages/about.html">About</a></li>
                 <li><a href="#">Product</a></li>
-                <li><a href="#">Contact</a></li>
-                <li><a href="#">Login</a></li>
+                <li><a href="./pages/contact.html">Contact</a></li>
+                <li><a href="./pages/signin.html">Login</a></li>
             </ul>
 
         </nav>
@@ -48,24 +42,43 @@
         <i class="fa-solid fa-circle-xmark close-menub" onclick="closeSidebar()"></i>
 
         <li><b>Home</b></li>
-        <li><a href="#">About</a></li>
-        <li><a href="#">Product</a></li>
-        <li><a href="#">Contact</a></li>
-        <li><a href="#">Login</a></li>
+        <li><a href="./pages/about.html">About</a></li>
+        <li><a href="./pages/">Product</a></li>
+        <li><a href="./pages/contact.html">Contact</a></li>
+        <li><a href="./pages/signin.html">Login</a></li>
     </ul>
 
     <div class="slider-container">
         <div class="slide">
-            <img src="./img/home-slider/slide1.jpg" id="slide">
+            <img src="./img/home-slider/slide1.avif" id="slide">
             <i class="fa-solid fa-angle-left icon pre-icon" onclick="prevSlide()"></i>
             <i class="fa-solid fa-angle-right icon next-icon" onclick="nextSlide()"></i>
         </div>
-    </div> 
+    </div>
 
-    <script src="https://kit.fontawesome.com/d58d3c91c6.js" crossorigin="anonymous"></script>
-    <script src="./js/index.js"></script>
-    <script src="./js/nav.js"></script>
-
+    <h1 class="feature-heading-text">Our Features</h1>
+    <div class="feature-cards">
+        <div class="cards">
+            <img src="./icon/feature-icon/free-delivery.png" class="feature-icon">
+            <p class="text-center feature-heading">Free Delivery</p>
+            <p class="feature-text">Tomorrow is too late, free shipping ends tonight</p>
+        </div>
+        <div class="cards">
+            <img src="./icon/feature-icon/secure-payment.png" class="feature-icon">
+            <p class="text-center feature-heading">Secure Payment</p>
+            <p class="feature-text">Shop with confidence, pay with protection.</p>
+        </div>
+        <div class="cards">
+            <img src="./icon/feature-icon/return-policy.png" class="feature-icon">
+            <p class="text-center feature-heading">Return Policy</p>
+            <p class="feature-text">Get 30 days from the shipment date of order</p>
+        </div>
+        <div class="cards">
+            <img src="./icon/feature-icon/customer-service.png" class="feature-icon">
+            <p class="text-center feature-heading">24/7 Service</p>
+            <p class="feature-text">Get instant support whenever you need 24/7</p>
+        </div>
+    </div>
 
     <footer>
         <div class="footer-content">
@@ -99,26 +112,12 @@
                 </form>
             </div>
         </div>
-        <div class="footer-bottom">
-            <p>&copy; 2024 . All rights reserved.</p>
-        </div>
     </footer>
-    <!-- <div class="trending-cards">
-        <div class="cards">   
-        </div>
-        <div class="cards">   
-        </div>
-        <div class="cards">   
-        </div>
-        <div class="cards">   
-        </div>
-        <div class="cards">   
-        </div>
-    </div> -->
 
     <script src="https://kit.fontawesome.com/d58d3c91c6.js" crossorigin="anonymous"></script>
     <script src="./js/index.js"></script>
     <script src="./js/nav.js"></script>
 
 </body>
+
 </html>
