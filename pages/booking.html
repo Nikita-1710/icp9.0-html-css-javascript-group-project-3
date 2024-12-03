@@ -7,20 +7,46 @@
    <link rel="stylesheet" href="../css/style.css">
    <link rel="stylesheet" href="../css/booking.css">
    <link rel="stylesheet" href="../css/index.css">
-   <link rel="stylesheet" href="../css/nav.css">
+
 </head>
 <body>
-    <div class="navbar primary-color">
-        <span class="nav-heading">Navbar</span>
-        <ul class="nav-links">
-            <li><a href="../index.html">Home</a></li>
-            <li><a href="#">Categories</a></li>
-            <li><a href="../pages/about.html">About</a></li>
-            <li><a href="../pages/contact.html">Contact Us</a></li>
-            <li><a href="#">Cart</a></li>
-            
-        </ul>
-    </div>
+    <header>
+        <nav>
+            <div class="logo">
+                <a href="../index.html">
+                    <img src="../icon/shopping-cart.png" alt="E-commerce Logo">
+                </a>
+
+            </div>
+
+            <div class="menu-item">
+                <input type="text" class="search-bar menu-text" placeholder="Search Product.in">
+                <i class="fa-solid fa-magnifying-glass menu-icon menu-i in"></i>
+            </div>
+
+            <i class="fa-solid fa-bars hamburger-menu" onclick="openSidebar()" id="hamburger-menu"></i>
+
+            <ul class="nav-links" id="desktop-navbar">
+    
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="../pages/about.html">About</a></li>
+                <li><a href="#">Product</a></li>
+                <li><a href="../pages/contact.html">Contact</a></li>
+                <li><a href="../pages/signin.html">Login</a></li>
+            </ul>
+
+        </nav>
+    </header>
+
+    <ul id="sidebar">
+        <i class="fa-solid fa-circle-xmark close-menub" onclick="closeSidebar()"></i>
+
+        <li><a href="../index.html">Home</a></li>
+        <li><a href="../pages/about.html">About</a></li>
+        <li><a href="../pages/">Product</a></li>
+        <li><a href="../pages/contact.html">Contact</a></li>
+        <li><a href="../pages/signin.html">Login</a></li>
+    </ul>
 
     <div class="container">
         <h1>Book Your Slot</h1>
