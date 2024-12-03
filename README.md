@@ -1,4 +1,4 @@
-# Electro-Mart 
+# Electro-Mart 💻
 ## Welcome To **Electro-Mart**
 ### Contributors:
 <a href="https://github.com/Nikita-1710/icp9.0-html-css-javascript-group-project-3/graphs/contributors">
@@ -12,4 +12,4 @@
 3. Fast and Free Delivery
 4. 24/7 Customer Service
 
-### We are using `HTML, CSS and JS` in this project.
+### We are using `HTML,CSS and JS` in this project.
