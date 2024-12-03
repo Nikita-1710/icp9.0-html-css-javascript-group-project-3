@@ -1,12 +1,5 @@
 # Electro-Mart 💻
 ## Welcome To **Electro-Mart**
-### Contributors:
-<a href="https://github.com/Nikita-1710/icp9.0-html-css-javascript-group-project-3/graphs/contributors">
-<a href="https://github.com/Nikita-1710/icp9.0-html-css-javascript-group-project-3/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=Nikita-1710/icp9.0-html-css-javascript-group-project-3" />
-</a>
-
-Made with [contrib.rocks](https://contrib.rocks)
 
 ## Home Page:
 ![Home page](./img/homepage/homepage.png)
@@ -32,5 +25,13 @@ Would you like to contribute, follow given steps :
 4. Add your changes and fixed existing issues.
 5. Push your changes.
 6. Open a new pull request in this repository.
+
+### Contributors:
+<a href="https://github.com/Nikita-1710/icp9.0-html-css-javascript-group-project-3/graphs/contributors">
+<a href="https://github.com/Nikita-1710/icp9.0-html-css-javascript-group-project-3/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=Nikita-1710/icp9.0-html-css-javascript-group-project-3" />
+</a>
+
+Made with [contrib.rocks](https://contrib.rocks)
 
 `Thanks for visiting🙏`
