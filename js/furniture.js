@@ -33,12 +33,13 @@ function nextImage() {
 }
 setInterval(prevImage,6000);
 /* description menu */
-const modal = document.getElementById('myModal');
-const menu = document.getElementById('discription');
-const span = document.getElementsByClassName('close');
+
 function descrip(){
+    const modal = document.getElementById('myModal');
     modal.style.display= 'block';
 }
-function close(){
+const span = document.getElementsById('close');
+const modal = document.getElementById('myModal');
+span.onclick= function() {
     modal.style.display= 'none';
 }
