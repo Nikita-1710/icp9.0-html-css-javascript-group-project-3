@@ -10,7 +10,7 @@
 }
 
 .slide img{
-    height: 700px;
+    height: 650px;
     width: 100%;
     object-fit: cover;
     border-radius: 15px;
@@ -41,12 +41,18 @@
     transform: scale(0.8) translateX(5px);
 }
 
+.feature-heading-text{
+    margin: 30px auto;
+    width: 90%;
+    display: block;
+}
+
 .feature-cards{
     width: 90%;
     margin: 10px auto;
     display: flex;
     justify-content: space-around;
-    padding: 50px;
+    padding-bottom: 50px;
 }
 
 .cards{
