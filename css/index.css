@@ -41,7 +41,7 @@
     transform: scale(0.8) translateX(5px);
 }
 
-.trending-cards{
+.feature-cards{
     width: 90%;
     margin: 10px auto;
     display: flex;
@@ -50,11 +50,15 @@
 }
 
 .cards{
-    height: 250px;
-    width: 200px;
+    height: 300px;
+    width: 250px;
     padding: 20px;
     border: 1px solid black;
     border-radius: 15px;
+}
+
+.feature-icon{
+    
 }
 
 @media (max-width: 768px) {
