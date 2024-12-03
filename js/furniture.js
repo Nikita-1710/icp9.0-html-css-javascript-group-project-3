@@ -31,4 +31,14 @@ function nextImage() {
     }
     showImage(currentIndex);
 }
-showImage(currentIndex);
+setInterval(prevImage,6000);
+/* description menu */
+const modal = document.getElementById('myModal');
+const menu = document.getElementById('discription');
+const span = document.getElementsByClassName('close');
+function descrip(){
+    modal.style.display= 'block';
+}
+function close(){
+    modal.style.display= 'none';
+}
