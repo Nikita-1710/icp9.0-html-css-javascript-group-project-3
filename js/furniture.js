@@ -6,8 +6,7 @@ function closesidebar(){
     const sidebarElement = document.getElementById('sidebar');
     sidebarElement.style.visibility= 'hidden';
 }
-const images = [
-];
+const images = ["../img/electric-blanket-1.jpg","../img/electric-blanket-2.jpg","../img/electric-blanket-3.jpg","../img/electric-blanket-4.jpg"];
 
 let currentIndex = 0;
 
@@ -31,15 +30,16 @@ function nextImage() {
     }
     showImage(currentIndex);
 }
-setInterval(prevImage,6000);
+setInterval(prevImage,3000);
 /* description menu */
 
 function descrip(){
     const modal = document.getElementById('myModal');
     modal.style.display= 'block';
 }
-const span = document.getElementsById('close');
-const modal = document.getElementById('myModal');
-span.onclick= function() {
+
+function closeModal(){
+    const modal = document.getElementById('myModal');
     modal.style.display= 'none';
 }
+

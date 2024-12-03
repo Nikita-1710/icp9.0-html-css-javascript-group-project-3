@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="/css/furniture.css">
+    <link rel="stylesheet" href="../css/furniture.css">
 </head>
 <body>
     <i class="fa-solid fa-bars" id="hamberg" onclick="opensidebar()"></i>
@@ -15,20 +15,17 @@
              home
             </a> 
     </div>
-
-    <script src="https://kit.fontawesome.com/8efeeacf59.js" crossorigin="anonymous"></script>
-    <script src="/js/furniture.js"></script>
     <!--product cards -->
     
     <div id="firstrow">
     
         <div class="slideshow-container">
         <div class="slideshow">
-            <img id="slideshow-image" alt="Slideshow Image">
+            <img id="slideshow-image" src="../img/electric-blanket-1.jpg" alt="Slideshow Image">
         </div>
-        <button id="prev-button" onclick="prevImage()" class="button">❮</button>
-        <button id="next-button" onclick="nextImage()" class="button">❯</button>
-       <div> <p>
+       <div>
+        <h3>Electric Blanket</h3> 
+        <p>
         cost : $4500                                                                   
     </p>
 </div> 
@@ -36,9 +33,15 @@
        <button  id="discription" onclick="descrip()">Description</button>
        <div id="myModal" class="modal">
         <div class="modal-content">
-            <i class="fa-solid fa-xmark" id="close"></i>
-            <h2>Welcome to the Future</h2>
-            <p>Discover the latest trends in tech and design. Stay ahead with our insightful articles and updates.</p>
+            <i class="fa-solid fa-xmark" id="close" onclick="closeModal()"></i>
+            <h2>Experience Ultimate Comfort with Our Premium Electric Blanket</h2>
+            <h3>Key Features:</h3>
+            <p><b>Customizable Warmth:</b> Choose from multiple heat settings to find your ideal level of warmth. Whether you need a gentle heat for a quick nap or a toasty haven for a long night's sleep, this blanket has you covered.
+            </p>
+            <p><b>Ultra-Soft Fabric:</b>Crafted from high-quality, ultra-soft materials, this blanket offers a cozy feel against your skin, making it perfect for snuggling up on the couch or adding an extra layer of warmth to your bed.</p>
+            <p><b>Advanced Safety Features:</b>Equipped with overheat protection and an automatic shut-off timer, you can enjoy the soothing warmth with peace of mind.</p>
+            <p><b>Energy Efficient:</b>Designed to be energy efficient, it warms up quickly while consuming minimal power, making it an eco-friendly choice.</p>
+            <p><b>Machine Washable:</b>The detachable controller and machine washable fabric make it easy to keep your blanket fresh and clean.</p>
             <button class="action-button">Add to cart</button>
         </div>
     </div>
@@ -47,18 +50,16 @@
     <div class="slideshow-container">
         <div class="slideshow">
             <img id="slideshow-image"  alt="Slideshow Image">
-        </div>
-        <button id="prev-button" onclick="prevImage()" class="button">❮</button>
-        <button id="next-button" onclick="nextImage()" class="button">❯</button>
-    </div>
+        
 
     <div class="slideshow-container">
         <div class="slideshow">
             <img id="slideshow-image" alt="Slideshow Image">
-        </div>
-        <button id="prev-button" onclick="prevImage()" class="button">❮</button>
-        <button id="next-button" onclick="nextImage()" class="button">❯</button>
-    </div>
+       
 </div>
+
+<script src="https://kit.fontawesome.com/8efeeacf59.js" crossorigin="anonymous"></script>
+<script src="../js/furniture.js"></script>
+
 </body>
 </html>
