@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Product Preview Design</title>
+    <link rel="stylesheet" href="../css/all.css">
+   
+  </head>
+  <body>
+    <div class="container">
+      <div>
+        <img src="../img/macbook review.jpg" id="img1" onclick="changeimg('../img/macbook review.jpg')" /> 
+        <img src="../img/macbook review1.jpg" id="img1" onclick="changeimg('../img/macbook review1.jpg')" /> 
+        <img src="../img/macbook review4.jpg" id="img1" onclick="changeimg('../img/macbook review4.jpg')" />
+        <img src="../img/macbook review3.jpg" id="img1" onclick="changeimg('../img/macbook review3.jpg')" />
+      </div>
+      <img src="../img/macbook.jpg" alt="realme" id="mainimg" />
+    
+      <div class="content">
+        <h2>Apple MacBook Air Laptop</h2>
+        <img src="../icon/money.png" alt="rs" height="30px" width="30px">
+        <b><p class="price rs" id="price" data-price="56990">56990</p>
+        </b>
+        <div class="quantity">
+          <label for="quantity"> Quantity : </label> &nbsp;&nbsp;&nbsp;
+          <button>-</button>
+          <input id="quantity" type="text" value="1" />
+          <button>+</button>
+        </div>
+        <p class="subtotal">Total Price: <span class="rs1"> Rs.56990</span></p> 
+        <span>
+          <h3>Highlights</h3>
+          <ul>
+            <li>Brand: Apple</li>
+            <li>Model Name: MacBook Air</li>
+            <li>Screen Size: 13 Inches</li>
+            <li>RAM Memory Installed Size: 8 GB</li>
+            <li>Operating System: macOS 10.14 Mojave
+            </li>
+          </ul>
+
+          <h3>Description</h3>
+          Apple MacBook Air Laptop
+          <br>
+          Apple MacBook Air Laptop: Apple M1 chip, 13.3-inch/33.74 cm Retina Display, 8GB RAM, 256GB SSD Storage, Backlit Keyboard, FaceTime HD Camera, Touch ID. Works with iPhone/iPad; Space Grey      
+        </span>
+      </div>
+    </div>
+    <a href="./../index.html">
+        <button class="btn">Back to Product</button>
+    </a>
+    
+    
+
+    
+    <script src="../js/all.js"></script>
+
+  </body>
+</html>
