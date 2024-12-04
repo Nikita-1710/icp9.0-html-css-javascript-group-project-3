@@ -9,12 +9,12 @@ function openModel(){
         const name = document.getElementById('name').value;
         const email = document.getElementById('email').value;
         const date = document.getElementById('date').value;
-        const time = document.getElementById('time').value;
+       
 
     
         document.getElementById('confirmation').innerHTML = `
             <p>Thank you, ${name}!</p>
-            <p>Your booking is confirmed for ${date} at ${time}.</p>
+            <p>Your booking is confirmed for ${date}.</p>
             <p>A confirmation email has been sent to ${email}.</p>
         `;
         document.getElementById('bookingForm').reset();

@@ -1,0 +1,140 @@
+
+
+      .container{
+        height: auto;
+        max-width: 1200px;
+        display: flex;
+        flex-wrap: wrap;
+        
+      }
+
+      .content {
+            height: auto;
+            
+            width: 80%;
+            border: 1px solid black;
+            border-radius: 10px;
+            
+            padding: 10px 20px ;
+            margin-top:25px;
+            
+            
+          
+        }
+
+      #mainimg {
+        
+        height: auto;
+        width: 500px;
+        margin-top:50px;
+
+        object-fit: cover;
+        border: 2px solid black;
+        border-radius: 10px 12px;
+        padding: 3px;
+        
+        cursor: pointer;
+        
+      }
+     
+
+      #img1 {
+        height: 80px;
+        width: 80px;
+        object-fit: cover;
+        border: 2px solid black;
+        margin: 10px;
+        
+        border-radius: 10px;
+        cursor: pointer;
+        display: flex;
+        flex-direction: column;
+      }
+
+      .h1 {
+        font-size: 40px;
+        color: black;
+      }
+
+      .rs {
+        font-size: 25px ; 
+      }
+
+      
+      .btn{
+        margin-top:10px;
+        font-weight:bold;
+        font-family:'Times New Roman', Times, serif;
+        font-size:15px;
+        margin-left:80px;
+      }
+
+      .quantity {
+        font-size: 38px;
+      }
+
+      .quantity button{
+        padding: 8px 15px;
+        font-size: 28px;
+        background-color: black;
+        color: white;
+        border-radius: 7px;
+      }
+
+      #quantity {
+        padding: 10px;
+        width: 50px;
+        font-size: 24px;
+        text-align: center;
+        background-color: bisque;
+      }
+
+      .subtotal {
+        font-size: 28px;
+      }
+
+      .rs1 {
+        border: 1px solid gray;
+        padding: 10px;
+        border-radius: 8px;
+        background-color: rgb(2, 2, 113);
+        color: white;
+      }
+      
+
+      @media screen and (max-width: 768px) {
+        #img1 {
+          margin-top: 40px;
+          margin-left: 1px;
+          display: inline-block;
+          flex-direction: row;
+        }
+
+        #mainimg {
+          width: 90%;
+        }
+
+        .content {
+          width: 100%;
+        }
+
+        .quantity button{
+          margin: 0;
+            padding: 8px 8px;
+            font-size: 18px;
+            background-color: black;
+            color: white;
+            border-radius: 7px;
+        }
+
+        #quantity {
+          padding: 5px;
+          width: 40px;
+          font-size: 24px;
+          text-align: center;
+          background-color: bisque;
+          border-radius: 4px;
+        }
+      }
+    
+    

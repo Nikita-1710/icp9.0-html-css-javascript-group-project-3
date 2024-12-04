@@ -6,6 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>About</title>
     <link rel="stylesheet" href="./../css/about.css" />
+    <link rel="stylesheet" href="./../css/index.css" />
+    <link rel="stylesheet" href="./../css/style.css">
+    <link rel="stylesheet" href="./../css/nav.css">
     <style>
         .img-staff {
             height: 150px;
@@ -21,6 +24,35 @@
 </head>
 
 <body>
+
+    <header>
+        <nav>
+            <div class="logo">
+                <a href="index.html">
+                    <img src="../icon/shopping-cart.png" alt="E-commerce Logo">
+                </a>
+
+            </div>
+
+            <div class="menu-item">
+                <input type="text" class="search-bar menu-text" placeholder="Search Product.in">
+                <i class="fa-solid fa-magnifying-glass menu-icon menu-i in"></i>
+            </div>
+
+            <i class="fa-solid fa-bars hamburger-menu" onclick="openSidebar()" id="hamburger-menu"></i>
+
+            <ul class="nav-links" id="desktop-navbar">
+                <li><b>Home</b></li>
+                <li><a href="./pages/about.html">About</a></li>
+                <li><a href="./pages/product.html">Product</a></li>
+                <li><a href="./pages/contact.html">Contact</a></li>
+                <li><a href="./pages/signin.html">Login</a></li>
+            </ul>
+
+        </nav>
+            
+    </header>
+
     <h1 class="main-heading">About us</h1>
     <h3 class="secondary-heading">Welcome to our brand..
         <br />Where style and comfort meet
@@ -28,12 +60,12 @@
     </h3>
     <br />
     <br />
-    <div class="container">
+    <div class="containerr">
         <img src="./../img/about/img1.png" class="slide" id="slide">
         <img src="./../img/about/back.png" class="icon-action icon-back" onclick="back()">
         <img src="./../img/about/next.png" class="icon-action icon-next" onclick="next()">
     </div> <br>
-    <p class="heading"><b>Design without compromise</b></p>
+    <h3 class="tertiary-heading">Design without compromise</h3>
     <div class="para">
 
 
@@ -43,25 +75,48 @@
             carefully sourcing materials and working with the best minds in the business, we design everything
             we make with a simple ethos: to not make you choose between quality and price.</p>
     </div>
-
-    <h3 class="tertiary-heading">Speciality Of Our Services</h3>
-    <div class="services">
-        <img src="./../img/about/about4.png" class="img-services">
-        <p class="service-description"><b>Home Delivery</b></p>
+<br><br>
+    <h3 class="tertiary-heading">Meet Our Staff Member</h3>
+    <div class="staff-table">
+        <div class="services">
+            <img src="./../img/about/nikita.png" class="img-staff" />
+            <h3 class="service-description">Nikita Chausalkar</h3>
+            <p class="service-description"> Manager</p>
+        </div>
+        <div class="services">
+            <img src="./../img/about/default.png.jpg" class="img-staff" />
+            <h3 class="service-description">Aman Singh</h3>
+            <p class="service-description">Accountant</p>
+        </div>
+        <div class="services">
+            <img src="./../img/about/sam.png" class="img-staff" />
+            <h3 class="service-description">Samradnya Thakare</h3>
+            <p class="service-description">Product Designer</p>
+        </div>
+        <div class="services">
+            <img src="./../img/about/default.png.jpg" class="img-staff" />
+            <h3 class="service-description">Krushna Barhate</h3>
+            <p class="service-description">Interior Designer</p>
+        </div>
+        <div class="services">
+            <img src="./../img/about/default.png.jpg" class="img-staff" />
+            <h3 class="service-description">Juned Ansari</h3>
+            <p class="service-description">Hospitality Manager</p>
+        </div>
+        <div class="services">
+            <img src="./../img/about/yash.png.jpg" class="img-staff" />
+            <h3 class="service-description">Yash Yeole</h3>
+            <p class="service-description"> Sales Associate</p>
+        </div>
+        <div class="services">
+            <img src="./../img/about/prajakta.png" class="img-staff" />
+            <h3 class="service-description">Prajakta Patil</h3>
+            <p class="service-description"> Sales Associate</p>
+        </div>
     </div>
-    <div class="services">
-        <img src="../img/about/about5.png" class="img-services">
-        <p class="service-description"><b>Online Furniture Delivery</b></p>
-    </div>
-    <div class="services">
-        <img src="./../img/about/about6.png" class="img-services">
-        <p class="service-description"><b>On Time Delivery</b></p>
-    </div>
-
-    <div class="services">
-        <img src="./../img/about/about7.png" class="img-services">
-        <p class="service-description"><b>Customer's problem resolution</b></p>
-    </div>
+    <br />
+    <br>
+    <br> 
     <h3 class="tertiary-heading">Our Values</h3>
     <div class="values">
         <ul>
@@ -72,63 +127,7 @@
             <li>plan for tomorrow,focus on today</li>
         </ul>
     </div>
-
-    <h3 class="tertiary-heading">Meet Our Staff</h3>
-    <div class="staff-table">
-    <div class="services">
-        <img src="./../img/about/nikita.png" class="img-staff" />
-        <h3 class="service-description">Nikita Chausalkar</h3>
-        <p class="service-description"> Manager</p>
-    </div>
-    <div class="services">
-        <img src="../images/aboutpage_images/Abhi.png" class="img-staff" />
-        <h3 class="service-description">Aman Singh</h3>
-        <p class="service-description">Accountant</p>
-    </div>
-    <div class="services">
-        <img src="./../img/about/sam.png" class="img-staff" />
-        <h3 class="service-description">Samradnya Thakare</h3>
-        <p class="service-description">Product Designer</p>
-    </div>
-    <div class="services">
-        <img src="../images/aboutpage_image" class="img-staff" />
-        <h3 class="service-description">Krushna Barhate</h3>
-        <p class="service-description">Interior Designer</p>
-    </div>
-    <div class="services">
-        <img src="../images/aboutpage_images/Tharkeshwari.png" class="img-staff" />
-        <h3 class="service-description">Juned Ansari</h3>
-        <p class="service-description">Hospitality Manager</p>
-    </div>
-    <div class="services">
-        <img src="../images/aboutpage_images/bhakti.png" class="img-staff" />
-        <h3 class="service-description">Sakshi Raut</h3>
-        <p class="service-description">Trade Manager</p>
-    </div>
-    <div class="services">
-        <img src="../images/aboutpage_images/vaishnavi.png" class="img-staff" />
-        <h3 class="service-description">Pratik Kobarne</h3>
-        <p class="service-description">Sales Manager</p>
-    </div>
-    <div class="services">
-        <img src="../images/aboutpage_images/Mansi.png" class="img-staff" />
-        <h3 class="service-description">Yash Yeole</h3>
-        <p class="service-description"> Sales Associate</p>
-    </div>
-    <div class="services">
-        <img src="./../img/about/prajakta.png" class="img-staff" />
-        <h3 class="service-description">Prajakta Patil</h3>
-        <p class="service-description"> Sales Associate</p>
-    </div>
-    <div class="services">
-        <img src="../images/aboutpage_images/Mansi.png" class="img-staff" />
-        <h3 class="service-description">Prathamesh</h3>
-        <p class="service-description"> Sales Manager</p>
-    </div>
-</div>
-    <br />
-    <br>
-    <br> <br> <br>
+    <br><br>
     <header>
         <input type="text" id="search-bar" placeholder="Search Our Customer..." />
     </header>
@@ -150,9 +149,6 @@
 
     </div>
     <br />
-    
-
-
     <div class="map-container">
 
 
@@ -170,12 +166,47 @@
         <div class="overview">
             <h3 class="tertiary-heading">Let's see an overview of our Brand</h3>
 
-            <iframe width="560px" height="450px" src="https://www.youtube.com/embed/dPMTD7ifzcQ?si=IHuB68lhil37oQNk
-  &amp;start=15" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media;
-   gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
-            </iframe>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/wf4F2-9UXUo?si=4O8eK0CztQfwThwd"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
         </div>
     </div>
+
+    <footer>
+        <div class="footer-content">
+            <div class="contact-info">
+                <h3>Contact Us</h3>
+                <p>Phone: +91 9561510000</p>
+                <p>Email: support@krushna.com</p>
+                <p>Address: India</p>
+            </div>
+            <div class="quick-links">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="#">FAQ</a></li>
+                    <li><a href="#">Terms and Conditions</a></li>
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                </ul>
+            </div>
+            <div class="social-media">
+                <h3>Follow Us</h3>
+                <a href="https://facebook.com/" target="_blank"><img src="./../icon/facebook.png" alt="Facebook"></a>
+                <a href="https://twitter.com/" target="_blank"><img src="../icon/Twitter.png" alt="Twitter"></a>
+                <a href="https://instagram.com/" target="_blank"><img src="../icon/instagram.png" alt="Instagram"></a>
+                <a href="https://linkedin.com/" target="_blank"><img src="../icon/linkedin.png" alt="LinkedIn"></a>
+            </div>
+            <div class="newsletter-signup">
+                <h3>Newsletter Signup</h3>
+                <form>
+                    <input type="email" placeholder="Your email address" required>
+                    <button type="submit">Subscribe</button>
+                </form>
+            </div>
+        </div>
+            
+    </footer>
 
     <script src="./../js/about.js"></script>
 </body>
