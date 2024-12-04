@@ -148,10 +148,11 @@ h3 {
   text-align: center;
 }
 
-.container {
+.containerr {
   width: fit-content;
   margin: 50px auto;
   position: relative;
+
 }
 
 .slide {
