@@ -11,7 +11,9 @@
 4. 24/7 Customer Service
 
 ## Technologies Used :
-`HTML,CSS and JS` 
+- HTML
+- CSS
+- JS
 
 ## To visit `Electro-Mart` use following link :
 
