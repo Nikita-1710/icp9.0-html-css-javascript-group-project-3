@@ -9,9 +9,37 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css"
         integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="stylesheet" href="./../css/nav.css">
 </head>
 
 <body>
+    <header>
+        <nav>
+            <div class="logo">
+                <a href="index.html">
+                    <img src="./../icon/shopping-cart.png" alt="E-commerce Logo">
+                </a>
+
+            </div>
+
+            <div class="menu-item">
+                <input type="text" class="search-bar menu-text" placeholder="Search Product.in">
+                <i class="fa-solid fa-magnifying-glass menu-icon menu-i in"></i>
+            </div>
+
+            <i class="fa-solid fa-bars hamburger-menu" onclick="openSidebar()" id="hamburger-menu"></i>
+
+            <ul class="nav-links" id="desktop-navbar">
+                <li><b><a href="./../index.html">Home</a></b></li>
+                <li><a href="./pages/about.html">About</a></li>
+                <li><a href="#">Product</a></li>
+                <li><a href="./pages/contact.html">Contact</a></li>
+                <li><a href="./pages/signin.html">Login</a></li>
+            </ul>
+
+        </nav>
+    </header>
+
     <div class="signup-container">
         <div class="signup-box">
             <h3>Sign In</h3>
@@ -45,6 +73,39 @@
             </form>
         </div>
     </div>
+    <footer>
+        <div class="footer-content">
+            <div class="contact-info">
+                <h3>Contact Us</h3>
+                <p>Phone: +91 9561510000</p>
+                <p>Email: support@krushna.com</p>
+                <p>Address: India</p>
+            </div>
+            <div class="quick-links">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="#">FAQ</a></li>
+                    <li><a href="#">Terms and Conditions</a></li>
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                </ul>
+            </div>
+            <div class="social-media">
+                <h3>Follow Us</h3>
+                <a href="https://facebook.com/" target="_blank"><img src="./../icon/facebook.png" alt="Facebook"></a>
+                <a href="https://twitter.com/" target="_blank"><img src="./../icon/Twitter.png" alt="Twitter"></a>
+                <a href="https://instagram.com/" target="_blank"><img src="./../icon/instagram.png" alt="Instagram"></a>
+                <a href="https://linkedin.com/" target="_blank"><img src="./../icon/linkedin.png" alt="LinkedIn"></a>
+            </div>
+            <div class="newsletter-signup">
+                <h3>Newsletter Signup</h3>
+                <form>
+                    <input type="email" placeholder="Your email address" required>
+                    <button type="submit">Subscribe</button>
+                </form>
+            </div>
+        </div>
+    </footer>
 </body>
 
 </html>
