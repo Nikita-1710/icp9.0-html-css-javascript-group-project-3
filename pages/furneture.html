@@ -7,14 +7,33 @@
     <link rel="stylesheet" href="../css/furniture.css">
 </head>
 <body>
+    <header>
+        <nav>
+            <div class="logo">
+                <a href="index.html">
+                    <img src="./icon/shopping-cart.png" alt="E-commerce Logo">
+                </a>
+
+            </div>
+
+            <div class="menu-item">
+                <input type="text" class="search-bar menu-text" placeholder="Search Product.in">
+                <i class="fa-solid fa-magnifying-glass menu-icon menu-i in"></i>
+            </div>
+
+            <i class="fa-solid fa-bars hamburger-menu" onclick="openSidebar()" id="hamburger-menu"></i>
+
+            <ul class="nav-links" id="desktop-navbar">
+                <li><b>Home</b></li>
+                <li><a href="./pages/about.html">About</a></li>
+                <li><a href="#">Product</a></li>
+                <li><a href="./pages/contact.html">Contact</a></li>
+                <li><a href="./pages/signin.html">Login</a></li>
+            </ul>
+
+        </nav>
+    </header>
     <i class="fa-solid fa-bars" id="hamberg" onclick="opensidebar()"></i>
-    
-    <div id="sidebar">
-        <i class="fa-solid fa-xmark" id="cross" onclick="closesidebar()"></i>
-        <a href="./index.html" id="menu"><i class="fa-solid fa-house-chimney"></i>
-             home
-            </a> 
-    </div>
     <!--product cards -->
     
     <div id="firstrow">
