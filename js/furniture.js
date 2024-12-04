@@ -43,7 +43,28 @@ setInterval(prevImage,3000);
      }
      showI(current);
  }
- setInterval(prevI,3000);
+ setInterval(prevI,4000);
+
+ /**
+ Hot-water-bottle
+ */
+ const pic = ["../img/Hot-water-bottle-1.jpg","../img/Hot-water-bottle-2.jpg","../img/Hot-water-bottle-3.jpg","../img/Hot-water-bottle-4.jpg","../img/Hot-water-bottle-5.jpg"];
+
+ let indexA = 0;
+ 
+ function showindex(index) {
+     const slideshowImage = document.getElementById('slideshow-3');
+     slideshowImage.src = pic[index];
+ }
+ function prevI() {
+     if (indexA === 0) {
+         indexA = images.length - 1;
+     } else {
+         indexA--;
+     }
+     showindex(indexA);
+ }
+ setInterval(prevI,5000);
 /* description menu */
 
 function descrip(){
